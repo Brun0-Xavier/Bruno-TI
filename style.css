@@ -134,6 +134,7 @@ header a:hover {
 }
 
 /*CONTEUDOS DA PAG*/
+/*SESSÃO 1*/
 
 section{
     width: 100%;
@@ -178,6 +179,8 @@ section{
     font-size: 40px;
 }
 
+/*SESSÃO 2*/
+
 #sobre {
     background: #404040;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -198,8 +201,9 @@ section{
 
 .boxs {
     border: 1px solid red;
-    width: 50%;
-    height: 80%;
+    width: 45%;
+    height: 70%;
+    color: white;
 
     display: flex;
     flex-wrap: wrap;
@@ -214,4 +218,127 @@ section{
 
     background: #6A6A6A;
     border-radius: 9px;
+}
+
+
+#box1 div {
+    align-items: center;
+    justify-content: space-around;
+
+    height: 60px;
+    display: flex;
+}
+
+#limparpng {
+   
+    width: 40px;
+    height: 40px;
+}
+
+#box1 h2{
+    text-align: center;
+    padding-right: 65px;
+    font-family: 'Goldman';
+}
+
+#box1 p {
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/*BOX 2*/
+
+
+#box2 div {
+    align-items: center;
+    justify-content: space-around;
+
+    height: 60px;
+    display: flex;
+}
+
+#upgrade {
+   
+    width: 40px;
+    height: 40px;
+}
+
+#box2 h2{
+    text-align: center;
+    padding-right: 65px;
+    font-family: 'Goldman';
+}
+
+#box2 p {
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/*BOX 3*/
+
+#box3 div {
+    align-items: center;
+    justify-content: space-around;
+
+    height: 60px;
+    display: flex;
+}
+
+#dev {
+   
+    width: 40px;
+    height: 40px;
+}
+
+#box3 h2{
+    text-align: center;
+    padding-right: 30px;
+    font-family: 'Goldman';
+}
+
+#box3 p {
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/*BOX4*/
+
+#box4 div {
+    align-items: center;
+    justify-content: space-around;
+
+    height: 60px;
+    display: flex;
+}
+
+#orça {
+   
+    width: 40px;
+    height: 40px;
+}
+
+#box4 h2{
+    text-align: center;
+    padding-right: 30px;
+    font-family: 'Goldman';
+}
+
+#box4 p {
+    width: 80%;
+    font-size: 19px;
+    margin: 0 auto;
+    margin-top: 0;
+}
+
+/*SESSÃO 3*/
+
+#serviços {
+    justify-content: flex-end;
+    min-height: 100vh;
 }
