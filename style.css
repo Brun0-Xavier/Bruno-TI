@@ -654,3 +654,25 @@ section{
 
     }
 }
+
+@media (max-width: 1130px){
+    #sobre {
+        height: 120vh;
+    }
+
+    #serviços h1{
+        width: 100%;
+    }
+
+    #serviços p {
+        width: 100%;
+    }
+
+    #serviços2 h1{
+        width: 100%;
+    }
+
+    #serviços2 p {
+        width: 100%;
+    }
+}
