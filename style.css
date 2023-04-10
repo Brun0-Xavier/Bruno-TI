@@ -203,7 +203,7 @@ section{
 }
 
 .boxs {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     width: 45%;
     height: 70%;
     color: white;
@@ -587,34 +587,65 @@ section{
 
     /*SERVIÇOS1*/
     #serviços{
+        height: 105vh;
+        margin-bottom: 50px;
+        padding-top: 70px;
         display: block;
     }
 
     #serviços div h1{
-        width: 400px;
+        width: 90%;
+        font-size: 38px;
+        text-align: center;
+        margin: auto;
     }
 
     #serviços div p{
+        font-size: 28px;
+        text-align: justify;
+        margin: auto;
+        margin-bottom: 20px;
         width: 400px;
     }
 
+    .sabermais {
+        margin-left: 100px;
+}
+
     #img-conteudo3{
-        width: 400px;
+        width: 60%;
     }
 
     /*FIM do SERVIÇOS1*/
 
     /*SERVIÇOS2*/
     #serviços2 {
+        height: 110vh;
+        margin-bottom: 0px;
+        padding-top: 70px;
         display: block;
     }
 
     #serviços2 div h1{
-        width: 400px;
+        width: 90%;
+        font-size: 38px;
+        text-align: center;
+        margin: auto;
     }
 
     #serviços2 div p{
+        font-size: 28px;
+        text-align: justify;
+        margin: auto;
+        margin-bottom: 20px;
         width: 400px;
+    }
+
+    #serviços2 #img-conteudo3{
+        display: block;
+        margin-top: 30px;
+        position: absolute;
+        right: 0;
     }
 
     /*FIM do SERVIÇOS2*/
