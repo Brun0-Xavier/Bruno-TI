@@ -405,7 +405,7 @@ section{
     /*SOBRE*/
     #sobre{
         display: block;
-        height: 140vh;
+        height: 100%;
         text-align: center;
     }
 
