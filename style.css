@@ -45,7 +45,7 @@ header img {
     rgba(255, 255, 255, 0.501042) 73.85%, 
     rgba(255, 255, 255, 0) 100%);
 
-    z-index: 1;
+    z-index: 5;
 }
 
 
@@ -160,7 +160,7 @@ section{
 #img-conteudo1{
     position: relative;
     display: flex;
-    width: 50%;
+    width: 40%;
     height: 100vh;
 
     z-index: 0;
@@ -190,6 +190,7 @@ section{
     justify-content: space-around;
 }
 
+
 #sobre h1 {
     width: 400px;
 
@@ -204,17 +205,17 @@ section{
 
 .boxs {
     /*border: 1px solid red;*/
-    width: 45%;
-    height: 70%;
+    width: 550px;
+    height: 350px;
     color: white;
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
-.boxs div {
+.box {
     margin: 0 0px;
     width: 250px;
     height: 150px;
@@ -223,8 +224,7 @@ section{
     border-radius: 9px;
 }
 
-
-#box1 div {
+.box div{
     align-items: center;
     justify-content: space-around;
 
@@ -232,165 +232,86 @@ section{
     display: flex;
 }
 
-#limparpng {
-   
+.box div img {
     width: 40px;
-    height: 40px;
 }
 
-#box1 h2{
+.box div h2 {
     text-align: center;
-    padding-right: 65px;
+    padding-right: 50px;
     font-family: 'Goldman';
-}
-
-#box1 p {
-    width: 80%;
-    font-size: 20px;
-    margin: 0 auto;
-    margin-top: 10px;
-}
-
-/*BOX 2*/
-
-
-#box2 div {
-    align-items: center;
-    justify-content: space-around;
-
-    height: 60px;
-    display: flex;
-}
-
-#upgrade {
-   
-    width: 40px;
-    height: 40px;
-}
-
-#box2 h2{
-    text-align: center;
-    padding-right: 65px;
-    font-family: 'Goldman';
-}
-
-#box2 p {
-    width: 80%;
-    font-size: 20px;
-    margin: 0 auto;
-    margin-top: 10px;
-}
-
-/*BOX 3*/
-
-#box3 div {
-    align-items: center;
-    justify-content: space-around;
-
-    height: 60px;
-    display: flex;
-}
-
-#dev {
-   
-    width: 40px;
-    height: 40px;
 }
 
 #box3 h2{
     text-align: center;
-    padding-right: 30px;
+    padding-right: 25px;
     font-family: 'Goldman';
 }
 
-#box3 p {
+.box p {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
-    margin-top: 10px;
 }
 
-/*BOX4*/
 
-#box4 div {
-    align-items: center;
-    justify-content: space-around;
-
-    height: 60px;
-    display: flex;
-}
-
-#orça {
-   
-    width: 40px;
-    height: 40px;
-}
-
-#box4 h2{
-    text-align: center;
-    padding-right: 30px;
-    font-family: 'Goldman';
-}
-
-#box4 p {
-    width: 80%;
-    font-size: 19px;
-    margin: 0 auto;
-    margin-top: 0;
-}
 
 /*SESSÃO 3*/
 
 #serviços {
-    min-height: 100vh;
+    height: 100vh;
 }
 
-#img-conteudo3 {
+.img-conteudo3 {
     width: 500px;
-    display: flex;
 }
 
 #serviços div{
+    width: 750px;
     margin: 0 auto;
 }
 
-#serviços h1{
-    
+#serviços h1{ 
     font-size: 50px;
-    width: 800px;
 }
 
 #serviços p {
+    text-align: justify;
+    padding-right: 25%;
     padding-top: 20px;
-    width: 500px;
     font-size: 30px;
     margin-bottom: 20px;
 }
 
-/*SESSÃO 3 P2*/
-
-#serviços2 {
-    min-height: 100vh;
+#serviços .fonte {
+    font-size: 20px;
+    padding: 0;
 }
 
-#img-conteudo3 {
-    width: 500px;
-    display: flex;
+#serviços2 .fonte {
+    font-size: 20px;
+    padding: 0;
+}
+
+/*SESSÂO 3 P2*/
+
+#serviços2 {
+    height: 100vh;
 }
 
 #serviços2 div{
+    width: 750px;
     margin: 0 auto;
 }
 
-#serviços2 h1{
-    
+#serviços2 h1{ 
     font-size: 50px;
-    width: 800px;
 }
 
 #serviços2 p {
+    text-align: justify;
+    padding-right: 25%;
     padding-top: 20px;
-    width: 500px;
     font-size: 30px;
     margin-bottom: 20px;
 }
@@ -444,7 +365,6 @@ section{
     color: white;
 }
 
-
 @media (max-width: 600px){
 
     /*INICIO*/
@@ -485,194 +405,62 @@ section{
     /*SOBRE*/
     #sobre{
         display: block;
-        height: 130vh;
-    }
-
-    #sobre h1{
-        font-size: 30px;
+        height: 140vh;
         text-align: center;
-        width: 80%;
-        margin: 0 auto;
+    }
+
+    #sobre h1 {
         margin-top: 70px;
-
     }
-
-    .boxs div {
-        width: 200px;
-        height: 150px;
-        
     
-        background: #6A6A6A;
-        border-radius: 9px;
-    }
-
-    .boxs{
+    .boxs {
+        width: 250px;
+        height: 700px;
         margin: 0 auto;
-        width: 90%;
-        height: 77%;
     }
-
-    #box1 div {
-        height: 50px;
-    }
-    
-    #limparpng {
-       
-    }
-    
-    #box1 h2{
-        font-size: 20px;
-    }
-    
-    #box1 p {
-        margin-top: 0;
-    }
-    
-    /*BOX 2*/
-    
-    
-    #box2 div {
-        height: 50px;
-    }
-    
-    #upgrade {
-       
-    }
-    
-    #box2 h2{
-        font-size: 20px;
-    }
-    
-    #box2 p {
-        margin-top: 0;
-    }
-    
-    /*BOX 3*/
-    
-    #box3 div {
-        height: 50px;
-    }
-    
-    #dev {
-       
-    }
-    
-    #box3 h2{
-        font-size: 20px;
-    }
-    
-    #box3 p {
-        margin-top: 0;
-    }
-    
-    /*BOX4*/
-    
-    #box4 div {
-        height: 50px;
-    }
-    
-    #orça {
-
-    }
-    
-    #box4 h2{
-        font-size: 20px;
-    }
-    
-    #box4 p {
-        margin-top: 0;
-    }
-
-    /*FIM do INICIO*/
 
     /*SERVIÇOS1*/
+
     #serviços{
-        height: 105vh;
+        height: 165vh;
         margin-bottom: 50px;
         padding-top: 70px;
         display: block;
     }
 
-    #serviços div h1{
-        width: 90%;
-        font-size: 38px;
-        text-align: center;
-        margin: auto;
+    #serviços div{
+        width: 400px;
     }
 
     #serviços div p{
         font-size: 28px;
-        text-align: justify;
-        margin: auto;
         margin-bottom: 20px;
-        width: 400px;
     }
 
-    .sabermais {
-        margin-left: 100px;
-}
-
-    #img-conteudo3{
-        width: 60%;
+    .img-conteudo3 {
+        width: 300px;
     }
-
-    /*FIM do SERVIÇOS1*/
 
     /*SERVIÇOS2*/
+
     #serviços2 {
-        height: 110vh;
-        margin-bottom: 0px;
-        padding-top: 70px;
+        height: 180vh;
+        margin-bottom: 50px;
+        padding-top: 40px;
         display: block;
     }
 
-    #serviços2 div h1{
-        width: 90%;
-        font-size: 38px;
-        text-align: center;
-        margin: auto;
+    #serviços2 div{
+        width: 400px;
+        height: 850px;
     }
-
     #serviços2 div p{
         font-size: 28px;
-        text-align: justify;
-        margin: auto;
         margin-bottom: 20px;
-        width: 400px;
     }
 
-    #serviços2 #img-conteudo3{
-        display: block;
-        margin-top: 30px;
+    #serviços2 .img-conteudo3{
         position: absolute;
         right: 0;
-    }
-
-    /*FIM do SERVIÇOS2*/
-
-    #contato{
-
-    }
-}
-
-@media (max-width: 1130px){
-    #sobre {
-        height: 120vh;
-    }
-
-    #serviços h1{
-        width: 100%;
-    }
-
-    #serviços p {
-        width: 100%;
-    }
-
-    #serviços2 h1{
-        width: 100%;
-    }
-
-    #serviços2 p {
-        width: 100%;
     }
 }
